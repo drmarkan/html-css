@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Visualization Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                  <a class="dropdown-item" href="temp.html">Temperature</a>
+                  <a class="dropdown-item" href="humidty.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="services.html">Visualization</a> -->
+              <!-- <a class="nav-link" href="visualization.html">Visualization</a> -->
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="contact.html">Comparison</a> -->
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Data
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="data.html">Data Table</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+
+      <div class="col-sm">
+          <img class="img-fluid rounded" src="images/pexels_small.jpg" alt="">
+        </div>
+      </div>
+
+    </header>
+    
+    <!-- Page Content -->
+    <div class="container">
+
+      <h1 class="my-4">Welcome to ABF Data</h1>
+
+      <!-- Features Section -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Summary</h2>
+          <p>Latitude vs Temperatures:</p>
+          
+          <!-- Andy adds description of project here -->
+          <p>For this project I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities. My objective was to build a series of scatter plots to showcase the following relationships:</p>
+          <li><a href="1temp_vs_lat.html" style="color:black">Temperature (F) vs Latitude</a></li>
+          <li><a href="2humidty_vs_lat.html" style="color:black" >Humidity (F) vs Latitude</a></li>
+          <li><a href="3cloudiness_vs_lat.html" style="color:black">Cloudiness (F) vs Latitude</a></li>
+          <li><a href="4windspeed_vs_lat.html" style="color:black">Wind Speed (F) vs Latitude</a></li>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid rounded" src="images/1LatTemp2.png" alt="">
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+    </div> 
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; ABF Data 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
